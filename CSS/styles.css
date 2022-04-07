@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto',
+    sans-serif;
+}
+body,.navlink,.filterbtn{
+    color: #212121;
+}
+.webs,
+.navlink,
+.headerlink,
+.footerlink {
+    text-decoration: none;
+}
+.webs,
+.navlink,
+.headerlink,
+.footerlink,footer p{
+    font-style: normal;
+}
+.webs{
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+}
+h2,.navlink,.headerlink,.tableheader,.name,.position{
+    line-height: 1.17;
+}
+footer p,.footerlink,.tabledescription{
+    line-height: 1.71;
+}
+.webs:hover,.webs:focus{
+    color: purple;
+}
+.navlink,.headerlink,.name{
+    font-weight: 500;
+}
+footer p,.headerlink,.tableheader,.navlink,.tabledescription,.footerlink{
+    font-size: 14px;
+   }
+.headerlink,.tabledescription,.position,.description{
+    color: #757575;
+}
+.servicebtn,.filterbtn:hover{
+    background-color: #2196F3; 
+    line-height: 1.88;
+}
+h2,.servicebtn,.tableheader,.category{
+    font-weight: 700;
+}
+footer p,.tabledescription,.position,.description{
+    font-weight: 400;
+}
+.name,.position,.servicebtn,.description{
+    font-size: 16px;
+}
+.servicebtn:hover,.servicebtn:focus{
+        background-color: #fff;
+}
+.filterbtn{
+        background-color: #f5f4fa;
+}
+.servicebtn,.filterbtn{
+    border: none;
+    cursor: pointer;
+}
+.filterbtn:focus{
+    border: #212121;
+}
+.footerlink{
+    color: #ffffff99;
+}
+.webs,.servicebtn:hover,.servicebtn:focus,.navlink:hover,.navlink:focus,.headerlink:hover,.headerlink:focus,.footerlink:hover,.footerlink:focus{
+    color: #2196F3;
+}
+footer, .solutions{
+    background-color: #2F303A;
+}
+h1,footer p,.filterbtn:hover,.servicebtn{
+    color: #fff;
+}
+h1{
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+}
+h2{
+    font-size: 36px;
+}
+.category{
+    font-size: 18px;
+    line-height: 2;
+}
