@@ -70,6 +70,8 @@ footer p,.tabledescription,.position,.description{
 }
 .footerlink{
     color: #ffffff99;
+    display: flex;
+
 }
 .webs,.servicebtn:hover,.servicebtn:focus,.navlink:hover,.navlink:focus,.headerlink:hover,.headerlink:focus,.footerlink:hover,.footerlink:focus{
     color: #2196F3;
@@ -111,4 +113,19 @@ header,header>nav,header>div{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+footer{
+    height: 252px;
+}
+address p{
+    margin: 9px 0px 0px 0px;
+}
+address{
+    box-sizing: content-box;
+    display: flex;
+    width: 231px;
+    height: 252px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 0px 0px 215px;
 }
