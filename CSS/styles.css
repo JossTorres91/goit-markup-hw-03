@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto',
     sans-serif;
+    width: 1600px;
 }
 body,.navlink,.filterbtn{
     color: #212121;
@@ -87,7 +88,27 @@ h1{
 h2{
     font-size: 36px;
 }
+h1,h2{
+    text-align: center;
+}
 .category{
     font-size: 18px;
     line-height: 2;
+}
+header{
+    height: 80px;
+}
+header>nav{
+    width: 531px;
+    margin: 24px 0px 25px 215px;
+}
+header>div{
+    width: 296px;
+    margin: 32px 219px 32px 339px;
+}
+header,header>nav,header>div{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
