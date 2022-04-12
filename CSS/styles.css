@@ -86,6 +86,9 @@ h1{
     font-size: 44px;
     line-height: 1.36;
     font-weight: 900;
+    width: 696px;
+    height: 120px;
+    margin: 0px 0px 30px 0px;
 }
 h2{
     font-size: 36px;
@@ -99,6 +102,9 @@ h1,h2{
 }
 header{
     height: 80px;
+    border-bottom-width: 1px;
+    border-bottom-color: #ECECEC ;
+    border-bottom-style: solid;
 }
 header>nav{
     width: 531px;
@@ -110,7 +116,6 @@ header>div{
 }
 header,header>nav,header>div{
     box-sizing: border-box;
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -120,12 +125,75 @@ footer{
 address p{
     margin: 9px 0px 0px 0px;
 }
+.ourteam figure,.ourteam,.wedopic,.solutions,main,header,header>nav,header>div,address{
+    display: flex;
+}
+address,main,.solutions,.ourteam,.ourteam figure{
+    flex-direction: column;
+}
+address,.solutions{
+    justify-content: center;
+}
 address{
     box-sizing: content-box;
-    display: flex;
     width: 231px;
     height: 252px;
-    flex-direction: column;
-    justify-content: center;
     margin: 0px 0px 0px 215px;
+}
+main,.solutions,.ourteam,.ourteam figure{
+    align-items: center;
+}
+.container{
+    width: 1200px;
+}
+.solutions{
+    width: 1600px;
+    height: 600px;
+    margin: 0px 0px 94px 0px;
+}
+.servicebtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+}
+.wedo{
+    margin: 90px 0px 50px 0px;
+}
+.wedopic{
+    height: 294px;
+    justify-content: space-between;
+    margin: 0px 0px 94px 0px;
+}
+.ourteam{
+    height: 648px;
+    background-color: #f5f4fa;;
+}
+.ourteam>h2{
+    padding: 94px 0px 50px 0px;
+}
+.ourteam h2, figure{
+    margin:0px
+}
+.name{
+    margin: 30px 0px 10px 0px;
+}
+.position{
+    margin: 0px 0px 30px 0px;
+}
+figure{
+    padding:0px;
+    background-color: #fff;
+}
+.filterbtn{
+    height: 38px;
+    width: auto;
+    padding: 6px 24px 6px 24px;
+    margin: 0px 0px 50px 0px;
+}
+.portpic figure{
+    border-color: #ECECEC;
+    border-width: 1px;
+    border-style: solid;
+    width: 370px;
+    height: 404px;
 }
