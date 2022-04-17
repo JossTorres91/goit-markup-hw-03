@@ -1,199 +1,242 @@
+*{
+    margin: 0px;
+}
 body{
     font-family: 'Roboto',
     sans-serif;
     width: 1600px;
 }
-body,.navlink,.filterbtn{
+body,
+.headernav,
+.filter button{
     color: #212121;
 }
-.webs,
-.navlink,
-.headerlink,
-.footerlink {
-    text-decoration: none;
-}
-.webs,
-.navlink,
-.headerlink,
-.footerlink,footer p{
+header a,
+address a,
+address p{
     font-style: normal;
+    text-decoration: none;
 }
 .webs{
     font-family: 'Raleway',
     sans-serif;
-    font-size: 26px;
-    line-height: 1.2;
-}
-h2,.navlink,.headerlink,.tableheader,.name,.position{
-    line-height: 1.17;
-}
-footer p,.footerlink,.tabledescription{
-    line-height: 1.71;
-}
-.webs:hover,.webs:focus{
-    color: purple;
-}
-.navlink,.headerlink,.name{
-    font-weight: 500;
-}
-footer p,.headerlink,.tableheader,.navlink,.tabledescription,.footerlink{
-    font-size: 14px;
-   }
-.headerlink,.tabledescription,.position,.description{
-    color: #757575;
-}
-.servicebtn,.filterbtn:hover{
-    background-color: #2196F3; 
-    line-height: 1.88;
-}
-h2,.servicebtn,.tableheader,.category{
-    font-weight: 700;
-}
-footer p,.tabledescription,.position,.description{
-    font-weight: 400;
-}
-.name,.position,.servicebtn,.description{
-    font-size: 16px;
-}
-.servicebtn:hover,.servicebtn:focus{
-        background-color: #fff;
-}
-.filterbtn{
-        background-color: #f5f4fa;
-}
-.servicebtn,.filterbtn{
-    border: none;
-    cursor: pointer;
-}
-.filterbtn:focus{
-    border: #212121;
-}
-.footerlink{
-    color: #ffffff99;
-    display: flex;
-
-}
-.webs,.servicebtn:hover,.servicebtn:focus,.navlink:hover,.navlink:focus,.headerlink:hover,.headerlink:focus,.footerlink:hover,.footerlink:focus{
-    color: #2196F3;
-}
-footer, .solutions{
-    background-color: #2F303A;
-}
-h1,footer p,.filterbtn:hover,.servicebtn{
-    color: #fff;
 }
 h1{
-    font-size: 44px;
-    line-height: 1.36;
     font-weight: 900;
-    width: 696px;
-    height: 120px;
-    margin: 0px 0px 30px 0px;
+    font-size: 44px;
 }
-h2{
-    font-size: 36px;
+.servicebtn,
+.features th,
+h2,
+.title,
+.webs{
+    font-weight: 700;
 }
-h1,h2{
-    text-align: center;
+.headernav,
+header>div,
+.name,
+.filter button{
+    font-weight: 500;
 }
+.features td,
+.position,
+address p,
+.footeradd,
 .category{
-    font-size: 18px;
-    line-height: 2;
+    font-weight: 400;
 }
-header{
-    height: 80px;
-    border-bottom-width: 1px;
-    border-bottom-color: #ECECEC ;
-    border-bottom-style: solid;
+.webs:hover,
+.webs:focus{
+    color: blueviolet;
 }
-header>nav{
-    width: 531px;
-    margin: 24px 0px 25px 215px;
+.headernav:hover,
+.headerlink:hover,
+.footeradd:hover,
+.headernav:focus,
+.headerlink:focus,
+.footeradd:focus,
+.webs,
+.servicebtn:hover,
+.servicebtn:focus{
+    color: #2196F3;
 }
-header>div{
-    width: 296px;
-    margin: 32px 219px 32px 339px;
+.servicebtn:hover,
+.servicebtn:focus,
+.ourteamfig figure{
+    background-color:#fff;
 }
-header,header>nav,header>div{
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: space-between;
+.headerlink,
+.features td,
+.position,
+.category{
+    color: #757575;
 }
-footer{
-    height: 252px;
+.solutions,
+footer {
+    background-color: #2F303A
 }
-address p{
-    margin: 9px 0px 0px 0px;
+h1,
+.servicebtn,
+address p,
+.filter button:hover,
+.filter button:focus {
+    color: #fff;
 }
-.ourteam figure,.ourteam,.wedopic,.solutions,main,header,header>nav,header>div,address{
-    display: flex;
-}
-address,main,.solutions,.ourteam,.ourteam figure{
-    flex-direction: column;
-}
-address,.solutions{
-    justify-content: center;
-}
-address{
-    box-sizing: content-box;
-    width: 231px;
-    height: 252px;
-    margin: 0px 0px 0px 215px;
-}
-main,.solutions,.ourteam,.ourteam figure{
-    align-items: center;
-}
-.container{
-    width: 1200px;
-}
-.solutions{
-    width: 1600px;
-    height: 600px;
-    margin: 0px 0px 94px 0px;
-}
-.servicebtn{
-    width: 200px;
+.servicebtn {
+    border-style: none;
+    padding: 0px;
     height: 50px;
+    width: 200px;
+}
+.category,
+.servicebtn {
+    line-height: 1.88;
+}
+.filter button,
+.servicebtn {
+    font-family: 'Roboto',
+        sans-serif;
     border-radius: 4px;
 }
-.wedo{
-    margin: 90px 0px 50px 0px;
+.footeradd {
+    color: #ffffff99;
 }
-.wedopic{
-    height: 294px;
-    justify-content: space-between;
-    margin: 0px 0px 94px 0px;
+.webs {
+    font-size: 26px;
 }
-.ourteam{
-    height: 648px;
-    background-color: #f5f4fa;;
+.headernav,
+.headerlink,
+.features th,
+.features td,
+address p,
+.footeradd {
+    font-size: 14px;
 }
-.ourteam>h2{
-    padding: 94px 0px 50px 0px;
+.servicebtn,
+.name,
+.position,
+.filter button,
+.category {
+    font-size: 16px;
 }
-.ourteam h2, figure{
-    margin:0px
+h2 {
+    font-size: 36px;
 }
-.name{
-    margin: 30px 0px 10px 0px;
+.title {
+    font-size: 18px;
 }
-.position{
-    margin: 0px 0px 30px 0px;
+header nav,
+header div,
+.features th,
+h2,
+.name,
+.position,
+.webs {
+    line-height: 1.17;
 }
-figure{
-    padding:0px;
-    background-color: #fff;
+h1 {
+    line-height: 1.36;
 }
-.filterbtn{
-    height: 38px;
-    width: auto;
-    padding: 6px 24px 6px 24px;
-    margin: 0px 0px 50px 0px;
+.features td,
+address p,
+.footeradd {
+    line-height: 1.71;
 }
-.portpic figure{
-    border-color: #ECECEC;
+.title {
+    line-height: 2;
+}
+.servicebtn,
+.filter button {
+    cursor: pointer;
+}
+.filter button {
+    line-height: 1.63;
+    border-color: #212121;
     border-width: 1px;
-    border-style: solid;
-    width: 370px;
-    height: 404px;
+}
+.filterbutton,
+.ourteam {
+    background-color: #F5F4FA;
+}
+.filter button:hover,
+.filter button:focus,
+.servicebtn {
+    background-color: #2196F3;
+}
+header {
+    box-sizing: content-box;
+    border-bottom: 1px solid #ececec;
+}
+main,
+header,
+header nav,
+header div,
+.wedo .wedopic,
+.ourteam,
+.ourteamfig,
+.section,
+.footeradd,
+.portfoliofig {
+    display: flex;
+}
+header,
+header nav,
+header div,
+.wedopic,
+.ourteamfig,
+.portfoliofig {
+    justify-content: space-between;
+}
+header nav {
+    width: 531px;
+    box-sizing: inherit;
+    padding: 24px 0px 25px 215px;
+}
+main,
+header nav,
+header div,
+.section {
+    align-items: center;
+}
+header div {
+    width: 303px;
+    box-sizing: inherit;
+    padding: 0px 219px 0px 0px;
+}
+.solutions,
+.wedo,
+.wedopic,
+.ourteam,
+.ourteamfig,
+.section,
+.portfoliofig {
+    width: 100%;
+}
+main,
+.wedo,
+.section {
+    flex-direction: column;
+}
+.container {
+    width: 1200px;
+}
+.ourteam {
+    justify-content: center;
+}
+.name,
+.position,
+h1 {
+    text-align: center;
+}
+.section {
+    padding: 94px 0px;
+}
+address {
+    padding: 60px 0px 60px 215px;
+}
+.portfoliofig {
+    flex-wrap: wrap;
+}
+.portfoliofig figure {
+    border-bottom: 1px solid #eee;
 }
